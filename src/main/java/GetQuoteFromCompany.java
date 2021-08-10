@@ -4,8 +4,7 @@ public class GetQuoteFromCompany {
     public GetQuoteFromCompany(InsuranceCompany company1) {
         this.company = company1;
     }
-
-    public Quote getQUote() {
+    public Quote getQuote() {
         return InsuranceApi.getQuote(company);
     }
 }
